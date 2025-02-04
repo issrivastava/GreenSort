@@ -1,0 +1,52 @@
+1. Components Required
+Arduino Board (e.g., Arduino Uno/Nano/ESP8266/ESP32)
+WiFi Module (ESP8266 if using Uno/Nano; ESP32 has built-in WiFi)
+Moisture Sensor (for detecting wet waste)
+IR Sensor or Ultrasonic Sensor (for detecting objects)
+Servo Motor (for opening different bins)
+Buzzer & LEDs (for alerts and indicators)
+OLED/ LCD Display (for real-time status updates)
+Power Supply (5V/12V battery or adapter)
+IoT Platform (Blynk, Firebase, ThingSpeak, or MQTT)
+
+
+2. Working Principle
+Detection:
+
+Waste is placed on a detection area.
+An IR sensor detects the presence of waste.
+A moisture sensor determines if the waste is wet or dry.
+Segregation:
+
+If moisture is detected, it is categorized as wet waste.
+If no moisture is detected, it is categorized as dry waste.
+A servo motor moves the waste to the correct bin.
+WiFi Connectivity & Monitoring:
+
+The system sends real-time data to a cloud platform via WiFi.
+The user can monitor waste levels remotely on a mobile app or web dashboard.
+
+ Circuit Connections
+Component	Connection to Arduino
+Moisture Sensor	Analog Pin (A0), VCC, GND
+IR Sensor	Digital Pin (D2), VCC, GND
+Servo Motor	PWM Pin (D9), VCC, GND
+Ultrasonic Sensor (HC-SR04)	Trigger (D3), Echo (D4)
+WiFi Module (ESP8266/ESP32)	TX, RX, VCC, GND
+Buzzer & LED	Digital Pins (D5, D6)
+4. Arduino Code (Basic)
+
+5. IoT Integration
+
+6. Features & Enhancements
+✅ Automatic Waste Segregation
+✅ IoT Monitoring via WiFi
+✅ Real-time Alerts & Data Logging
+✅ Buzzer & LED Alerts
+✅ OLED/LCD Display for status
+
+Further Enhancements:
+
+AI-based waste detection using a camera (TensorFlow Lite on ESP32-CAM).
+Weight Sensors for tracking waste amounts.
+Voice Alerts using a speaker module.
