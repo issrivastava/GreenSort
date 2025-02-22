@@ -1,0 +1,24 @@
+ESP8266 Wifi Module
+HC-SR04 Ultrasonic Sensor
+LCD Display
+Buzzer
+Crystal Oscillator
+Diodes
+Switch
+IC
+IC Sockets
+Arduino 
+IOT Gecko
+Resistors
+Capacitors
+Transistors
+Cables and Connectors
+PCB and Breadboards
+LED
+Transformer/Adapter
+Push Buttons
+LED Indicators
+Camera
+Speaker
+Supporting Frame
+Screws & Bolts
